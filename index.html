@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Alexander's Website</title>
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#848484;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+li a:hover:not(.active) {
+  background-color: #429ef4;
+}
+
+h1{
+    color:#848484;
+    text-align:center;
+}
+
+#home-pic{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px groove grey;
+}
+
+
+</style>
+</head>
+<body style="background-color: rgb(255,255, 255)">
+    
+    
+    <script>
+    function dark() {
+        if (document.body.style.backgroundColor == 'rgb(255, 255, 255)') {
+
+                document.body.style.backgroundColor = '#333';
+        }
+        else {
+                document.body.style.backgroundColor = 'rgb(255, 255, 255)';
+        }
+    }
+    </script>
+    
+    <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="about.html">About</a></li>
+  <li style="float:right"><a onclick="dark()">Nighttime</a></li>
+</ul>
+
+    <h1>Welcome to the Homepage</h1>
+    <p>Young OG in CS </p>
+    <img id="home-pic" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="300">
+    
+</body>
+</html>
