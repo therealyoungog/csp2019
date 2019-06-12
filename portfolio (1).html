@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Alexander's Website</title>
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#848484;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+li a:hover:not(.active) {
+  background-color: #429ef4;
+}
+
+h1{
+    color:#ffffff;
+    text-align:center;
+}
+
+body {
+     background-size:cover;
+     background-repeat:no-repeat;
+}
+
+#home-pic{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px groove grey;
+}
+
+
+</style>
+</head>
+<body background="images/portBG.jpg">>
+    
+    
+    <script>
+    function dark() {
+        if (document.body.style.backgroundImage == "images/portBG.jpg") {
+
+                document.body.style.backgroundColor = '#333';
+        }
+        else {
+                document.body.style.backgroundImage = "images/portBG.jpg";
+        }
+    }
+    </script>
+    
+    <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="about.html">About</a></li>
+  <li style="float:right"><a onclick="dark()">Nighttime</a></li>
+</ul>
+
+   <h1>This is my Portfolio Page!</h1>
+    <center>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/286454892/?autostart=false" frameborder="0" allowfullscreen></iframe> <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/286064812/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <br>
+            <img src="images/App.png" height="400">
+            <h1>
+                This is my MIT App. It is mini golf.
+            </h1>
+            <br>
+            <iframe height="400px" width="100%" src="https://repl.it/@Alhun6/Interactive-Fiction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+            <h1>
+                This is a story of Stu the Minion overcoming hardships to complete his mission.
+            </h1>
+            <br>
+            <img src="images/figure_28.png" height="400">
+            <img src="images/Code.png" height="400">
+            <br>
+            <h1>
+                I edited an image of Deadpool for 1.4
+            </h1>
+            <br>
+            <img src="images/1.5.jpg" height="400">
+            <img src="images/1.5 code.jpg" height="400">
+            <br>
+            <h1>
+                GUI for 1.5
+            </h1>
+            <br>
+            <img src="images/Untitled.png" height="400">
+            <h1>
+                Big Data graph
+            </h1>
+            <br>
+            <img src="images/Game.png" height="400">
+            <h1>
+                This is the NetLogo Sim game.
+            </h1>
+    </center>
+</body>
+</html>
